@@ -1,0 +1,61 @@
+*{
+    border: 0px;
+    padding: 0px;
+    border: border-box;
+}
+ body {
+    color: white;
+    background-color: #0F172A;
+}
+
+/* background */
+.orange {
+    height: 100%;
+    width: 75%;
+    
+    background-color: #F59E0B;
+    position: absolute;
+    right: 0%;
+
+    clip-path: polygon(100% 0, 100% 100%, 0% 100%)
+}
+
+.blue{
+    height: 45%;
+    width: 80%;
+    
+    background-color: #3B82F6;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+/* navigation bar */
+.navbar{
+    height: 10%;
+    width: 100%;
+
+    background-color: #11172D;
+    position: absolute;
+    position: fixed;
+    top: 0%;
+}
+
+.nav-logo{
+    display: flex;
+}
+
+.mylogo {
+    height: 2rem;
+    width: 30px;
+
+    background-color: darkblue;
+    position: relative;
+    top:0%;
+    left:0%;
+}
+
+
+
