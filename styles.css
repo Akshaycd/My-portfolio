@@ -1,5 +1,5 @@
 *{
-    border: 0px;
+    margin: 0px;
     padding: 0px;
     border: border-box;
 }
@@ -37,25 +37,47 @@
     height: 10%;
     width: 100%;
 
-    background-color: #11172D;
-    position: absolute;
+    background-color: hsl(262, 48%, 5%);
+    position: relative;
     position: fixed;
     top: 0%;
 }
 
 .nav-logo{
+    height: 100%;
+    width: 20%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .mylogo {
-    height: 2rem;
-    width: 30px;
-
     background-color: darkblue;
     position: relative;
     top:0%;
     left:0%;
+    margin-right: 3px;
+    margin-left: 3px;
+
+    height: 80%;
+    width: 20%;
 }
 
+.logoname{
+    height: 100%;
+    width:60%;
+}
 
+.nav-add1{
+    font-size: 75%;
+}
+.nav-add2{
+    font-size: 50%;
+    align-content: flex-start;
 
+}
