@@ -41,6 +41,8 @@
     position: relative;
     position: fixed;
     top: 0%;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo{
@@ -52,12 +54,11 @@
 
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 
 }
 
 .mylogo {
-    background-color: darkblue;
+    background-color: skyblue;
     position: relative;
     top:0%;
     left:0%;
@@ -68,16 +69,52 @@
     width: 20%;
 }
 
-.logoname{
+.logoname {
+    flex-grow: 10;
+}
+
+.nav-add1 {
+    font-size: 200%;
+}
+
+.nav-add2 {
+    font-size: 100%;
+}
+
+.nav_options ul {
+    display: flex;
+    list-style: none;
+}
+.nav_options ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.hire {
     height: 100%;
-    width:60%;
+    width: 10%;
+
+    position: absolute;
+    right: 2%; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-left:solid 1px;
+    border-color: rgba(255, 255, 255, 10);
+
 }
 
-.nav-add1{
-    font-size: 75%;
-}
-.nav-add2{
-    font-size: 50%;
-    align-content: flex-start;
+#hire {
+    background-color: blue;
+    border-radius: 30%;
+    height: 50%;
+    width: 70%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size:larger;
 }
