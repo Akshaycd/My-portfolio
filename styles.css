@@ -145,5 +145,95 @@
     color: white;
 }
 
+.photo {
+    height: 40%;
+    width: 20%;
+    /* border: solid white 2px; */
 
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
 
+.shape1 {
+    border: 4px solid #B44C34;
+    height: 90%;
+    width: 90%;
+    border-radius: 40%;
+
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 1;
+}
+
+.shape2 {
+    border: 4px solid #EAD383;
+    height: 90%;
+    width: 90%;
+    border-radius: 40%;
+
+    position: absolute;
+    top: 0%;
+    right: 3%;
+    z-index: 2;
+}
+
+.shape3 {
+    border: 4px solid #416469;
+    height: 90%;
+    width: 90%;
+    border-radius: 40%;
+
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 3;
+}
+
+#MyPhoto{
+    background-image: url("akshay.png");
+    background-size: cover;
+    z-index: 4;
+
+    height: 90%;
+    width: 90%;
+    border-radius: 40%;
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.HomeFont {
+    height: 40%;
+    width: 40%;
+    border: solid 2px white;
+
+    position: absolute;
+    top: 25%;
+    right:8%;
+
+    text-align: end;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#web {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 500%;
+    -webkit-text-stroke: black 1px;
+}
+
+#cs {
+    font-family: Arial;
+    color: black;
+    font-size: 170%;
+    -webkit-text-stroke: white 1px;
+
+    top:
+}
