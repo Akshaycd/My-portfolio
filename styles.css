@@ -6,8 +6,8 @@
  body {
     color: white;
     background-color: #0F172A;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* background */
@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .border:hover {
@@ -147,7 +148,13 @@
     color: white;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .home {
+    position: absolute;
     height: 100%;
     width: 100%;
 }
@@ -284,3 +291,43 @@
     /* height: 100%;
     width: 30%; */
 }
+
+.skill {
+    position: absolute;
+    top: 105%;
+}
+
+.PersnalDetails {
+    width: 80%;
+    display: flex;
+     /* flex-direction: column; */
+     justify-content: space-between;
+}
+
+#hello {
+    display: flex;
+    align-self: flex-end;
+    font-size: 400%;
+}
+
+#iam {
+    display: flex;
+    align-self: flex-end;
+    font-size: 200%;
+}
+
+#AD2 {
+    display: flex;
+    align-self: flex-end;
+    font-size: 300%;
+}
+.AboutMe {
+    height: 30%;
+    width: 100%;
+    font-size: 210%;
+
+    display: relative;
+    margin-top: 5%;
+
+}
+
