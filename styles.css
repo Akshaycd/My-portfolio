@@ -292,13 +292,20 @@ main {
     width: 30%; */
 }
 
-.skill {
+.AboutSkill {
     position: absolute;
     top: 105%;
+    width: 52%;
+
+    height: 100%;
+    width: 100%;
+
+    border: 2px white dashed;
 }
 
 .PersnalDetails {
-    width: 80%;
+    width: 44%;
+    height: 10%;
     display: flex;
      /* flex-direction: column; */
      justify-content: space-between;
@@ -311,9 +318,13 @@ main {
 }
 
 #iam {
+    position: relative;
     display: flex;
     align-self: flex-end;
     font-size: 200%;
+    bottom: 5px;
+    
+
 }
 
 #AD2 {
@@ -322,12 +333,83 @@ main {
     font-size: 300%;
 }
 .AboutMe {
-    height: 30%;
+    height: 40%;
     width: 100%;
-    font-size: 210%;
+    font-size: 1.5rem;
 
     display: relative;
-    margin-top: 5%;
+    padding-top: 0.2%;
+
+    /* border: 2px white solid; */
 
 }
+
+.skills {
+    height: 50%;
+    width: 100%;
+
+    /* border: white 2px solid; */
+
+    position: relative;
+    bottom: 9%;
+    
+    
+}
+
+.SkillBoxes {
+    height: 100%;
+    width: 100%;
+
+    /* border: white 2px solid; */
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skillbox1{
+    height: 100%;
+    width: 12%;
+
+    background-color: #9B9B9B;
+    border-radius: 7%;
+
+    /* border: white 2px solid; */
+
+}
+
+.skillbox2{
+    height: 100%;
+    width: 12%;
+
+    background-color: #9B9B9B;
+    border-radius: 7%;
+
+    /* border: white 2px solid; */
+    
+}
+
+.skillbox3{
+    height: 100%;
+    width: 12%;
+
+    background-color: #9B9B9B;
+    border-radius: 7%;
+
+    /* border: white 2px solid */
+
+}
+
+.skillbox4{
+    height: 100%;
+    width: 12%;
+
+    background-color: #9B9B9B;
+    border-radius: 7%;
+
+    /* border: white 2px solid; */
+
+}
+
+
 
