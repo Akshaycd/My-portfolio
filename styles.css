@@ -300,7 +300,7 @@ main {
     height: 100%;
     width: 100%;
 
-    border: 2px white dashed;
+    /* border: 2px white dashed; */
 }
 
 .PersnalDetails {
@@ -481,3 +481,12 @@ main {
 #Cloud {
     font-size: 200%;
 }
+
+/* .ExtaSkills {
+    height: 15%;
+    width: 100%;
+
+    background-color: black;
+    position: relative;
+    top: 2%;
+} */
