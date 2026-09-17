@@ -490,3 +490,59 @@ main {
     position: relative;
     top: 2%;
 } */
+
+.Education {
+    position: absolute;
+    top: 200%;
+
+    border: solid 2px white;
+
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 50%;
+
+    border: solid 2px white;
+}
+
+.PersnalDetails2{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.Explanation{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+#hello2 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+#Iam2 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+#AD3 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.Explanation {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
