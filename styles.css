@@ -502,47 +502,77 @@ main {
     /* display: flex; */
 }
 
-.summary {
+.suummary {
     display: flex;
     flex-direction: row;
 
     width: 100%;
     height: 50%;
 
-    border: solid 2px white;
+    /* border: solid 2px white; */
 }
 
 .PersnalDetails2{
-    position: relative;
+    display: flex;
+    /* position: relative; */
     height: 100%;
     width: 50%;
+
+    /* border: solid 2px white; */
+    justify-content: center;
+    
+    
 }
-.Explanation{
-    position: relative;
-    height: 100%;
-    width: 50%;
+
+#PersnalDetails2Words {
+    align-self: center;
+
+    /* border: solid 2px white; */
+
+    /* height: 100%;
+    width: 100%; */
+
+    
 }
 
 #hello2 {
-    position: relative;
+    font-size: 500%;
+    /* position: relative;
     height: 100%;
-    width: 50%;
+    width: 50%; */
 }
 
 #Iam2 {
+    font-size: 100%;
     position: relative;
-    height: 100%;
-    width: 50%;
+    right: 2%;
+    /* height: 100%;
+    width: 50%; */
 }
 
 #AD3 {
-    position: relative;
+    font-size: 300%;
+    /* position: relative;
     height: 100%;
-    width: 50%;
+    width: 50%; */
 }
 
-.Explanation {
+.Explanation{
     position: relative;
+    /* right: 0%; */
+    /* left: 50%; */
     height: 100%;
     width: 50%;
+
+    /* border: solid 2px white; */
+
+    font-size: 200%;
+}
+
+.Explanation ul li {
+    margin-bottom: 2%;
+}
+
+.Explanation ul {
+    list-style: none;
 }
