@@ -491,7 +491,7 @@ main {
     top: 2%;
 } */
 
-.Education {
+.EducationSummary{
     position: absolute;
     top: 200%;
 
@@ -575,4 +575,24 @@ main {
 
 .Explanation ul {
     list-style: none;
+}
+
+.rowPage3 {
+    border: none;
+    
+    border-top: 5px solid black;
+    width: 80%;
+
+    position: relative;
+    left: 10%;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.logo1 {
+    height: 50%;
+    width: 10%;
+
+    border: 2px solid black;
 }
