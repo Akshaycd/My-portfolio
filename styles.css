@@ -495,7 +495,7 @@ main {
     position: absolute;
     top: 200%;
 
-    border: solid 2px white;
+    /* border: solid 2px white; */
 
     height: 100%;
     width: 100%;
@@ -590,9 +590,107 @@ main {
     justify-content: center; */
 }
 
-.logo1 {
-    height: 50%;
-    width: 10%;
+.Education {
+    display: flex;
+    flex-direction: column;
 
-    border: 2px solid black;
+    /* border: white 2px solid; */
+
+    height: 50%;
+} 
+
+.EducationHedder {
+    position: relative;
+    /* display: flex; */
+    height: 10%;
+    width: 100%;
+
+    /* border: white 2px solid; */
+}
+#education {
+    height: 10%;
+    font-size: 200%;
+
+    text-align: center;   
+}
+
+.Diploma {
+    display: flex;
+    flex-wrap: wrap;
+    height: 45%;
+    /* border: white 2px solid; */
+}
+
+#course1 {
+    font-size: 200%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 0.5%;
+
+
+}
+
+.logo1 {
+    position: relative;
+    height: 50%;
+    width: 7%;
+    margin-left: 10%;
+
+    background-image: url(LOGOS/RNS.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    /* border: 2px solid black; */
+}
+
+#collage1 {
+    font-size: 150%;
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+    /* line-height: 15%; */
+}
+
+/* #year1 {
+    font-size: 150%;
+    width: 83%;
+} */
+
+
+
+.PUC {
+    display: flex;
+    flex-wrap: wrap;
+    height: 45%;
+    /* border: white 2px solid; */
+}
+
+#course2 {
+    font-size: 200%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 0.5%;
+
+
+}
+
+.logo2 {
+    position: relative;
+    height: 50%;
+    width: 7%;
+    margin-left: 10%;
+
+    background-image: url(LOGOS/PUC.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    /* border: 2px solid black; */
+}
+
+#collage2 {
+    font-size: 150%;
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+    /* line-height: 15%; */
 }
