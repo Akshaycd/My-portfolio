@@ -694,3 +694,83 @@ main {
     margin-top: 0.5%;
     /* line-height: 15%; */
 }
+
+.lastpage {
+    position: absolute;
+    top: 300%;
+
+    height: 25%;
+    width: 100%;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row1page4 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.FooterOptions {
+    /* border: 2px solid white; */
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1%;
+}
+
+.AboutNavigationContact {
+    /* border: 2px solid white; */
+
+    height: 80%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+
+    border-spacing: 40vh 0;
+    /* border-spacing: 10% 0; */
+
+    
+}
+
+/* tr{
+    position: relative;
+    border-left: 10%;    
+} */
+
+.Row2page4 {
+    width: 90%;
+    
+    position: relative;
+    left: 5%;
+
+    margin-top: 1%;
+}
+
+th {
+    padding-bottom: 3px;
+    text-align: left;
+
+    margin: 2px;
+
+}
+
+.creater {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 0.5%;
+}
+
+.creater i {
+    padding-right: 1%;
+
+    display: flex;
+    align-items: center;
+}
+
