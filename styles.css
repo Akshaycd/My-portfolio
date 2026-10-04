@@ -39,7 +39,7 @@
     height: 10%;
     width: 100%;
 
-    background-color: hsl(262, 48%, 5%);
+    background-color: #0b0713;
     position: relative;
     position: fixed;
     top: 0%;
@@ -50,9 +50,9 @@
     z-index: 100;
 }
 
-.border:hover {
+/* .border:hover {
     border: 1px solid white;
-}
+} */
 
 
 
@@ -70,7 +70,7 @@
 }
 
 .mylogo {
-    background-color: skyblue;
+    /* background-color: skyblue; */
     top:0%;
     left:0%;
     margin-right: 3px;
@@ -78,20 +78,32 @@
 
     height: 80%;
     width: 20%;
+
+    background-image: url(LOGOS/MyICONw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* mix-blend-mode: multiply; */
 }
 .logoname {
     flex-grow: 10;
 }
 .nav-add1 {
-    font-size: 200%;
+    /* font-size: 200%; */
+    font-size: 5vh;
 }
 .nav-add2 {
-    font-size: 100%;
+    /* font-size: 100%; */
+    font-size: 2vh;
+
 }
 
 
 .nav_options {
     justify-content: center;
+    /* height: 100%;
+    width: ; */
 }
 .nav_options ul {
     display: flex;
